@@ -1,3 +1,4 @@
+
 # Imbalance-Aware Skin Lesion Classification on HAM10000
 
 **EfficientNetB0 Transfer Learning with Grad-CAM Explainability**
@@ -50,9 +51,6 @@ The raw image dataset is **not included** in this GitHub repository. Download it
 2. **Alternative mirror — Kaggle:**  
    https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
-3. **Official ISIC 2018 dataset information and attribution:**  
-   https://challenge.isic-archive.com/data/
-
 ### Dataset Setup
 
 After downloading and extracting the dataset, arrange the files as follows:
@@ -67,24 +65,6 @@ HAM10000/
 ```
 
 If the downloaded image archives are compressed, extract both image parts into the same dataset directory as the metadata file. The notebook expects the metadata CSV and both image folders to be accessible from the dataset root.
-
-### Dataset License and Attribution
-
-This repository does not redistribute the HAM10000 images or metadata.
-
-License notices can differ between dataset distribution pages. The ISIC 2018 challenge page identifies the HAM10000 contribution under a **CC-BY-NC** license and provides the attribution below. The Kaggle mirror currently lists **CC BY-NC-SA 4.0**. If you download from Harvard Dataverse, review the current license and terms displayed on the Dataverse record and its files. Always follow the terms that apply to the exact copy you download.
-
-Attribution specified by the ISIC 2018 page:
-
-> HAM10000 Dataset: © by ViDIR Group, Department of Dermatology, Medical University of Vienna; https://doi.org/10.1038/sdata.2018.161
-
-Dataset publication:
-
-Tschandl, P., Rosendahl, C. & Kittler, H. (2018). *The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions.* Scientific Data, 5, 180161. https://doi.org/10.1038/sdata.2018.161
-
-Harvard Dataverse persistent identifier: https://doi.org/10.7910/DVN/DBW86T
-
-The dataset is subject to non-commercial use restrictions on the cited distribution pages. Check the applicable terms before reusing or redistributing any dataset material. No permission for commercial use is granted by this project.
 
 ## Methodology
 
