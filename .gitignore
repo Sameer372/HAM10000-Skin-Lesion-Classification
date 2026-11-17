@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments and local settings
+.venv/
+venv/
+env/
+.env
+
+# Dataset files (do not upload the raw HAM10000 dataset)
+data/
+dataset/
+HAM10000_images_part_1/
+HAM10000_images_part_2/
+HAM10000_metadata.csv
+
+# Generated model weights and runtime outputs
+outputs/
+*.keras
+*.h5
+*.weights.h5
+*.ckpt
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,16 @@
+metric,value
+test_loss,0.9672636985778809
+test_accuracy,0.6280771493911743
+weighted_precision,0.77
+weighted_recall,0.63
+weighted_f1_score,0.67
+macro_precision,0.47
+macro_recall,0.61
+macro_f1_score,0.48
+correct_test_predictions,944.0
+test_samples,1503.0
+best_validation_accuracy,0.6478
+best_validation_accuracy_epoch,27.0
+total_parameters,4214442.0
+trainable_parameters,2691735.0
+non_trainable_parameters,1522707.0
